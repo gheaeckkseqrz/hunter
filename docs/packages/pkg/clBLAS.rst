@@ -2,7 +2,7 @@
 
     clBLAS
 
-.. index:: unsorted ; clBLAS
+.. index:: math ; clBLAS
 
 .. _pkg.clBLAS:
 
@@ -14,15 +14,15 @@ clBLAS
     This page is a template and contains no real information.
     Please send pull request with real description.
 
--  `__FIXME__ Official <https://__FIXME__>`__
--  `__FIXME__ Hunterized <https://github.com/hunter-packages/__FIXME__>`__
--  `__FIXME__ Example <https://github.com/ruslo/hunter/blob/master/examples/__FIXME__/CMakeLists.txt>`__
--  Available since `__FIXME__ vX.Y.Z <https://github.com/ruslo/hunter/releases/tag/vX.Y.Z>`__
--  Added by `__FIXME__ <https://github.com/__FIXME__>`__ (`__FIXME__ pr-N <https://github.com/ruslo/hunter/pull/N>`__)
+-  `Official <https://github.com/clMathLibraries/clBLAS>`__
+-  `Hunterized <https://github.com/hunter-packages/clBLAS>`__
+-  `Example <https://github.com/ruslo/hunter/blob/master/examples/clBLAS/CMakeLists.txt>`__
+-  Available since `v2.12 <https://github.com/ruslo/hunter/releases/tag/v2.12>`__
+-  Added by `<https://github.com/gheaeckkseqrz>`__ (`__FIXME__ pr-N <https://github.com/ruslo/hunter/pull/N>`__)
 
 .. code-block:: cmake
 
-    hunter_add_package(__FIXME__)
-    find_package(__FIXME__ CONFIG REQUIRED)
-    target_link_libraries(foo __FIXME__::__FIXME__)
+    hunter_add_package(clBLAS)
+    find_package(clBLAS CONFIG REQUIRED)
+    target_link_libraries(... clBLAS::libclBLAS)
 

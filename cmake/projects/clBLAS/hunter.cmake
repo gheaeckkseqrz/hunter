@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     clBLAS
     VERSION
-    2.10.0-p0
+    2.12
     URL
-    "https://github.com/hunter-packages/clBLAS/archive/v2.10.0-p0.tar.gz"
+    "https://github.com/clMathLibraries/clBLAS/archive/v2.12.tar.gz"
     SHA1
-    187cf902c6fa9090a79a38ce7d8fea392077ac7b
+    f909ccabf4113a74fea127290ff6d80a62d08cb1
 )
 
 hunter_cmake_args(
